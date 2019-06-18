@@ -1,0 +1,173 @@
+\documentclass[a4paper,10pt]{article}
+
+%A Few Useful Packages
+\usepackage{marvosym}
+\usepackage{fontspec} 					%for loading fonts
+\usepackage{xunicode,xltxtra,url,parskip} 	%other packages for formatting
+\RequirePackage{color,graphicx}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[big]{layaureo} 				%better formatting of the A4 page
+% an alternative to Layaureo can be ** \usepackage{fullpage} **
+\usepackage{supertabular} 				%for Grades
+\usepackage{titlesec}					%custom \section
+
+%Setup hyperref package, and colours for links
+\usepackage{hyperref}
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour, linkcolor=linkcolour}
+
+%FONTS
+\defaultfontfeatures{Mapping=tex-text}
+%\setmainfont[SmallCapsFont = Fontin SmallCaps]{Fontin}
+%%% modified for Karol Kozioł for ShareLaTeX use
+\setmainfont[
+SmallCapsFont = Fontin-SmallCaps.otf,
+BoldFont = Fontin-Bold.otf,
+ItalicFont = Fontin-Italic.otf
+]
+{Fontin.otf}
+%%%
+
+%CV Sections inspired by: 
+%http://stefano.italians.nl/archives/26
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{3pt}{3pt}
+%Tweak a bit the top margin
+%\addtolength{\voffset}{-1.3cm}
+
+%Italian hyphenation for the word: ''corporations''
+\hyphenation{im-pre-se}
+
+%-------------WATERMARK TEST [**not part of a CV**]---------------
+\usepackage[absolute]{textpos}
+
+\setlength{\TPHorizModule}{30mm}
+\setlength{\TPVertModule}{\TPHorizModule}
+\textblockorigin{2mm}{0.65\paperheight}
+\setlength{\parindent}{0pt}
+
+%--------------------BEGIN DOCUMENT----------------------
+\begin{document}
+
+%WATERMARK TEST [**not part of a CV**]---------------
+%\font\wm=''Baskerville:color=787878'' at 8pt
+%\font\wmweb=''Baskerville:color=FF1493'' at 8pt
+%{\wm 
+%	\begin{textblock}{1}(0,0)
+%		\rotatebox{-90}{\parbox{500mm}{
+%			Typeset by Alessandro Plasmati with \XeTeX\  \today\ for 
+%			{\wmweb \href{http://www.aleplasmati.comuv.com}{aleplasmati.comuv.com}}
+%		}
+%	}
+%	\end{textblock}
+%}
+
+\pagestyle{empty} % non-numbered pages
+
+\font\fb=''[cmr10]'' %for use with \LaTeX command
+
+%--------------------TITLE-------------
+\par{\centering
+		{\Huge Tianyu \textsc{Du} \\
+		\small Undergraduate at University of Toronto, Economics, Mathematics and Computer Science
+	}\bigskip\par}
+
+%--------------------SECTIONS-----------------------------------
+%Section: Personal Data
+\section{Personal Information}
+
+\begin{tabular}{rl}
+%    \textsc{Date of Birth:} & 01 May 1999 \\
+%    \textsc{Address:} & One Bedford Rd., Toronto, Canada \\
+%    \textsc{Phone:} & +1 647-886-7951\\
+    \textsc{University email} & \href{mailto:tianyu.du@mail.utoronto.ca}{tianyu.du@mail.utoronto.ca} \\
+    \textsc{Personal email:} & \href{mailto:i@tianyudu.com}{i@tianyudu.com} \\
+    \textsc{LinkedIn:} & \href{https://www.linkedin.com/in/tianyu-du-7a56a7155/}{https://www.linkedin.com/in/tianyu-du-7a56a7155/} \\
+    \textsc{Personal Site:} & \href{www.tianyudu.com}{www.TianyuDu.com} \\
+    \textsc{Github:} & \href{https://github.com/TianyuDu}{https://github.com/TianyuDu}
+\end{tabular}
+
+%Section: Work Experience at the top
+% \section{Work Experience}
+% \begin{tabular}{r|p{11cm}}
+%  \emph{Current} & Trader at \textsc{Enoi} s.p.a., Milan \\\textsc{Jan 2009}&\emph{Physical Natural Gas Trading}\\&\footnotesize{Provided analysis of spreads, in particular time and location spreads, with emphasis on trading opportunities on the curve, also taking into account the availability of storage facilities. Became familiar with logistic implications of physical gas trading and developed knowledge of continental virtual hubs for gas exchange.}\\\multicolumn{2}{c}{} \\
+%  \textsc{Jul-Oct 2008} & 1\textsuperscript{st} year Analyst at \textsc{Lehman Brothers}, London \\&\emph{Commodities Structured Trading}\\&\footnotesize{Developed spreadsheets for risk analysis on exotic derivatives on a wide array of commodities (\textit{ags, oils, precious} and \textit{base metals}), managed blotter and secondary trades on structured notes, liaised with Middle Office, Sales and Structuring for bookkeeping.}\\\multicolumn{2}{c}{} \\
+% \textsc{Summer 2007} & Summer Intern at \textsc{Lehman Brothers}, \emph{Capital Markets}\\&\footnotesize{Received pre-placed offer from the Exotics Trading Desk as a result of very positive review. Rated ``\emph{truly distinctive}'' for Analytical Skills and Teamwork.}
+% \end{tabular}
+
+%Section: Education
+\section{Education}
+\begin{tabular}{rl}
+    \textsc{Sep.} 2017 & \textbf{University of Toronto}, Toronto, Canada \\
+    - \textsc{Present} & {Honours Bachelor of Science} (third year) \\
+    & \textsc{Programs taken: } \\
+    & \quad Economics\& Mathematics Specialist \\
+    & \quad Computer Science Minor \\
+    & \textsc{Current cGPA: } \emph{4.00/4.00} \\
+    & \textsc{Expected Graduate Date: } Apr. 2020 \\
+    & \textsc{Awards: } \\
+    & \quad Dean's List Scholar 2018
+    \\
+    \quad
+    \\
+    \textsc{Sep.} 2014 & \textbf{Hangzhou Foreign Language School}, Hangzhou, China\\
+    - \textsc{Jun.} 2017 & {General Certificate of Education, A Level by Cambridge International Examinations} \\
+    & \quad \textsc{Courses taken}: \emph{Economics, Mathematics, Further Mathematics, Physics, English.} \\
+    & {Advanced Placement} \\
+    & \quad \textsc{Exam taken}: \emph{Microeconomics(Score: 5/5), Macroeconomics (Score: 5/5).} 
+
+
+% \textsc{July} 2006& Undergraduate Degree in \textsc{Law} and \textsc{Business Administration} \\&110/110 \small\emph{summa cum laude}, \normalsize\textbf{Bocconi University}, Milan\\
+% & Thesis: ``Portfolio Strategies with Target Prices'' | \small Advisor: Stefano \textsc{Bonini}\\
+% &\normalsize \textsc{Gpa}: 29.85/30\hyperlink{grds_cleli}{\hfill| \footnotesize Detailed List of Exams}\\&\\
+% \textsc{Fall} 2005& Exchange Semester at \textbf{University of Southern California}, Los Angeles\\
+% &\textsc{Gpa}: 3.875/4 \hyperlink{grds_usc}{\hfill| \footnotesize Detailed List of Exams}\\&\\
+% \textsc{July} 2003& \textbf{Liceo Classico ``E. Duni''}, Matera | Final Grade: 100/100
+\end{tabular}
+%\footnotetext{Note about year of study at University of Toronto: I was registered to University of Toronto since Spe. 2017, and this is my second year here. Meanwhile, I have taken sufficient credits so on the official student portal (acorn), I am considered as a third year undergraduate.}
+\footnotetext{This copy of resume is complied on \today.}
+
+% Section: Activities
+\section{ACtivities and Projects}
+\begin{tabular}{rl}
+	\textsc{Current.} & Term Paper: Returns to Higher Education as a Heterogeneous Treatment Effect \\
+	& \quad This is an empirical term paper focusing on measuring the monetary of higher \\
+	& \quad educations. Unlike the other researches focusing on average treatment effect, \\
+	& \quad in this paper, we applied various matching methods to estimate the individual \\
+	& \quad level returns and analyzing factors affecting them.,\\
+	\textsc{Current.} & Artificial Neural Networks in Economic Forecasting (ANNEF) (\href{https://github.com/TianyuDu/AnnEconForecast}{Github Link}, \href{https://tianyudu.github.io/AnnEconForecast/}{Documentation}) \\
+	& \quad In this project, various neural networks, typically RNN, are deployed to perform \\
+	& forecasting tasks. And traditional time series analysis models are also implemented \\
+	& and compared with neural net based models. \\
+	\textsc{Fall 2018} & Home Credit Default Risk on Kaggle (\href{https://github.com/UTCAA-Mentorship-2018/tianyudu}{Github Link}) \\
+	& \quad In this project, gradient boosting machines are built to preform binary classification task \\
+	& on loan default prediction. \\
+    \textsc{Sep.} 2018 & CIBC Machine Intelligence Hackaton (\href{https://github.com/TianyuDu/CIBC-MACHINE-INTELLIGENCE-HACKATHON}{Github Link}) \\
+    & \emph{Finalist Group (Top 5)} \\
+    & \quad During this Hackaton, each team has to come up with a solution to detect fraud \\ 
+    & in medical claims. My team presented a solution using an encoder-decoder architecture \\
+    & neural network to catch fraud in medical insurance claims. And our team was selected \\ 
+    & as a finalist group (the top 5 groups) based on our prediction accuracy and presentation.  \\
+\end{tabular}
+
+% Section: Research Interests
+%\section{Research Interests}
+%     \textbf{Application of neural networks on economic topics} \\
+%     Applying the cutting-edge techniques from computer science and data science on economics-related topics. Deep neural networks helps us build more precise and powerful models to make forecasting on cross-sectional data. \\
+%     \quad \\
+%     \textbf{Agent-Based Modelling} \\
+%     Modelling and simulate markets and the interaction of agents in the market using computer science techniques.
+
+
+\section{Skills}
+	\begin{itemize}
+    \item \textbf{Python} Building and training using \texttt{tensorflow} and \texttt{keras} python api. Handle dataset with \texttt{numpy}, \texttt{scipy} and \texttt{sklearn}. Visualization using \texttt{matplotlib} and \texttt{bokeh}. 
+    \item \textbf{Latex} Familiar with latex typeset including formatting and mathematical symbols. 
+    \item \textbf{Matlab} Data manipulation, setting up and training neural nets using \texttt{Matlab}. 
+    \item \textbf{Stata} Data navigation and regression analysis with \texttt{Stata} 
+	\item \textbf{Amazon Web Service} Setting up cloud server for neural net training and web hosting. 
+    \item \textbf{Wolfram Mathematica} Using Mathematica to Solve for analytical solutions to problems in Calculus and Optimization related subjects.
+    \item \textbf{Linux\&Bash} Manage files and run neural network training on linux-based servers.
+    \item \textbf{Version Control using Git} Collaborating with contributors to the same project using git.
+   	\end{itemize}
+\end{document}

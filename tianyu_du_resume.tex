@@ -22,6 +22,7 @@
 
 \documentclass{resume} % Use the custom resume.cls style
 
+\usepackage{datetime}
 \usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
 \newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
 \newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
@@ -32,6 +33,7 @@
 %\address{(+1) 647-886-7951 \\ tianyu.du@mail.utoronto.ca} % Your phone number and email
 
 \begin{document}
+\footnotetext{Resume compile date: \currenttime\ \today}
 
 \begin{rSection}{Contacts \& Personal Info}
 	\textbf{Email} \texttt{tianyu.du@mail.utoronto.ca}
@@ -76,6 +78,7 @@ Machine Learning Methods and their Applications on Time Series Forecasting.
 
 
 \begin{rSection}{Scholarships \& Awards}
+{Mc Nab Undergraduate Scholarship} \hfill {\em Dec. 2019} \\
 {Alexander Mackenzie Scholarship In Economics And Political Science} \hfill {\em Oct. 2019} \\
 {Dean's List Scholar(2018-19)} \hfill {\em Jun. 2019} \\
 {International Experience Award (Killam American Fund for International Exchange)} \hfill{\emph May. 2019} \\
@@ -86,7 +89,7 @@ Machine Learning Methods and their Applications on Time Series Forecasting.
 %    Projects And Seminars
 %-----------------------------------------------------------------------------------------------
 \begin{rSection}{Activities \& Projects}
-{\bf Thesis on Stock Market Forecasting from Textual Data}
+{\bf Thesis on Stock Market Forecasting using News Sentiment with Machine Learning}
 \\ \emph{Honours Essay in Applied Microeconomics} \hfill \emph{Sep. 2019 - Apr. 2020}
 \\ Top students from department of economics are selected to conduct their own original research in this program. My thesis focuses on forecast asset market movements from financial news. Specifically, sentimental analysis tools from natural language processing (NLP) are used to generate article-level sentiment scores. Then data science techniques including SVM, CNN-RNN are deployed to create predictive models and capture the underlying inter-temporal dependencies.
 \\
@@ -121,8 +124,12 @@ An auto-encoder-decoder architecture neural network was implemented to detect fr
 \\\textbf{Data Analytics \& Machine Learning} Solid mathematical and statistical foundations for statistical learning models. Being able to implement and deploy machine learning models for both academic purposes such as paper replication and industrial purposes.
 \end{rSection}
 
-\begin{rSection}{Extra-Cirrucular} 
-	Economics Peer Mentorship Program (as Mentor) \hfill \emph{Oct.2019 - Apr.2020}
+\begin{rSection}{Recent Extra-Cirrucular} 
+	Economics Peer Mentorship Program, as Mentor. \hfill \emph{Oct.2019 - Apr.2020}
+	\\
+	Volunteer: University of Toronto, Representative at the Learning Abroad Fair. \hfill \emph{Nov. 2019}
+	\\
+	Volunteer: University of Toronto, Second Year Learning Community Panel, as Panelist. \hfill \emph{Oct. 2019}
 \end{rSection}
 
 \begin{rSection}{Other Courses \& Certificates}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  6 MAR 2020 00:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  21 APR 2020 17:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -194,67 +194,41 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 36.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 36.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 73.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 73.
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--76
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 56--76
-
- []
-
-
-Overfull \hbox (22.23524pt too wide) in paragraph at lines 56--76
-\OT1/cmr/m/n/10.95 Courses: CS229:Machine Learn-ing(Graduate), STATS202:Data Min-ing and Anal-y-sis(Graduate), STATS116:
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 56--76
+Underfull \hbox (badness 10000) in paragraph at lines 56--79
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 97--123
+Underfull \hbox (badness 10000) in paragraph at lines 56--79
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 97--123
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 97--123
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 97--123
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 97--123
+Underfull \hbox (badness 10000) in paragraph at lines 103--123
 
  []
 
 [1
 
-{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] (/Users/tianyudu/Documents/Resume/resume/.texpadtmp/tianyu_du_resume.aux) ) 
+{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (/Users/tianyudu/Documents/Resume/resume/.texpadtmp/tianyu_du_resume.aux) ) 
 Here is how much of TeX's memory you used:
- 2428 strings out of 492616
- 35176 string characters out of 6129482
- 126802 words of memory out of 5000000
- 6334 multiletter control sequences out of 15000+600000
- 7191 words of font info for 26 fonts, out of 8000000 for 9000
+ 2438 strings out of 492616
+ 35299 string characters out of 6129482
+ 124802 words of memory out of 5000000
+ 6341 multiletter control sequences out of 15000+600000
+ 8719 words of font info for 31 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,7n,34p,1087b,175s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on /Users/tianyudu/Documents/Resume/resume/.texpadtmp/tianyu_du_resume.pdf (2 pages, 110048 bytes).
+ 44i,7n,34p,1087b,178s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on /Users/tianyudu/Documents/Resume/resume/.texpadtmp/tianyu_du_resume.pdf (1 page, 110216 bytes).
 PDF statistics:
- 39 PDF objects out of 1000 (max. 8388607)
- 27 compressed objects within 1 object stream
+ 40 PDF objects out of 1000 (max. 8388607)
+ 28 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
